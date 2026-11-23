@@ -20,7 +20,7 @@ class MaterialTests(unittest.TestCase):
                 self.assertTrue(all(None not in row for row in rows))
 
 
-EXPECTED = {'weather.csv': (['station_id', 'region', 'observed_at', 'rain_mm', 'visibility_km', 'station_coverage'], 47), 'drives.csv': (['trip_id', 'version', 'vehicle_id', 'region', 'started_at', 'ended_at', 'sensor_config', 'upload_fraction'], 50), 'obstacles.csv': (['obstacle_id', 'trip_id', 'frame_start', 'frame_end', 'type', 'review_state', 'outcome'], 30), 'test_windows.csv': (['window_id', 'region', 'route_id', 'forecast', 'permit', 'sensor_config', 'capacity', 'status'], 24)}
+EXPECTED = {'visibility.csv': (['sensor_id', 'region', 'observed_at', 'visibility_km', 'observation_quality', 'coverage_fraction'], 47), 'drives.csv': (['trip_id', 'version', 'vehicle_id', 'region', 'started_at', 'ended_at', 'sensor_config', 'upload_fraction'], 50), 'obstacles.csv': (['obstacle_id', 'trip_id', 'frame_start', 'frame_end', 'type', 'review_state', 'outcome'], 30), 'test_windows.csv': (['window_id', 'region', 'route_id', 'visibility_band', 'permit', 'sensor_config', 'capacity', 'status'], 24)}
 
 
 if __name__ == "__main__":
