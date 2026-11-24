@@ -4,10 +4,14 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "low_visibility_obstacle_evidence"
-version = "0.1.0"
-description = "本地合成车辆运营资料"
+version = "0.2.0"
+description = "低能见度道路障碍规避能力的证据评估与补测计划（本地合成资料）"
+readme = "README.md"
 requires-python = ">=3.11,<3.15"
 dependencies = []
+
+[project.scripts]
+low-visibility-evidence = "low_visibility_obstacle_evidence.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]

@@ -1,0 +1,2 @@
+[console_scripts]
+low-visibility-evidence = low_visibility_obstacle_evidence.cli:main

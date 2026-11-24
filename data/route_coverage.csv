@@ -1,0 +1,9 @@
+﻿route_id,region,visibility_band,target_type,coverage_weight
+RT-1,R-S,low,water,0.9
+RT-1,R-S,restricted,water,0.6
+RT-4,R-S,low,water,0.55
+RT-4,R-S,restricted,water,0.4
+RT-2,R-W,clear,water,0.8
+RT-5,R-W,clear,water,0.5
+RT-3,R-N,restricted,water,0.85
+RT-0,R-N,restricted,water,0.45

@@ -1,0 +1,243 @@
+{
+  "generated_at": "2026-11-24T05:59:20.217010+00:00",
+  "as_of": "2026-11-22T00:00:00+00:00",
+  "source_files": {
+    "visibility.csv": "1f3442acdeacd7fc0180e3c6f4046789289a8aed501435d459851ead164d10cb",
+    "drives.csv": "54a4fdcc725069d1bc5af168089b81142c93ae6e476753de2526430b44c39c1a",
+    "obstacles.csv": "cae97f93f7e9b789899fca3b5ed0a36d070075658f8a6213f87752e9b38c78f5",
+    "test_windows.csv": "04413997060445804feadcc01c4339f4e845dc567a6e1ba00f14bfe150234e28",
+    "weather.csv": "78cb0eb27158ef6f105cd7d2ba171ed96e4a48a081118d4c51e49f1ec16d68ac",
+    "review_events.csv": "6e940bee2e223ad98be1056bac148ce503d8ef27d139a63801d21da990257714",
+    "closures.csv": "0934666d1cf275bc8e7ff8c2a970c2a8622b43a455b7e9d3570c16dee7d96da3",
+    "route_coverage.csv": "f6f1e9e2d852d3ddc440a778b4e36c61781a9795bd09767b2d7b67f729b17a41"
+  },
+  "closed_routes": [],
+  "entries": [
+    {
+      "target_id": "G-009",
+      "region": "R-N",
+      "band": "restricted",
+      "target_type": "water",
+      "window_id": "W-03",
+      "route_id": "RT-3",
+      "sensor_config": "CFG-B",
+      "status": "proposed",
+      "gap_kind": "thin",
+      "primary": true,
+      "coverage_loss_weight": 0.0,
+      "note": ""
+    }
+  ],
+  "unmet_targets": [
+    {
+      "target_id": "G-001",
+      "region": "R-N",
+      "band": "clear",
+      "target_type": "water",
+      "gap_kind": "no_evidence",
+      "reason": "区域 R-N 无分级 clear 且传感器配置 CFG-B 的窗口",
+      "competing_targets": [],
+      "candidate_window_ids": []
+    },
+    {
+      "target_id": "G-002",
+      "region": "R-N",
+      "band": "low",
+      "target_type": "water",
+      "gap_kind": "no_evidence",
+      "reason": "区域 R-N 无分级 low 且传感器配置 CFG-B 的窗口",
+      "competing_targets": [],
+      "candidate_window_ids": []
+    },
+    {
+      "target_id": "G-003",
+      "region": "R-S",
+      "band": "clear",
+      "target_type": "water",
+      "gap_kind": "no_evidence",
+      "reason": "区域 R-S 无分级 clear 且传感器配置 CFG-B 的窗口",
+      "competing_targets": [],
+      "candidate_window_ids": []
+    },
+    {
+      "target_id": "G-004",
+      "region": "R-S",
+      "band": "low",
+      "target_type": "water",
+      "gap_kind": "no_evidence",
+      "reason": "匹配窗口均不可用：W-01(状态 held), W-07(状态 held), W-13(状态 held), W-19(状态 held)",
+      "competing_targets": [],
+      "candidate_window_ids": []
+    },
+    {
+      "target_id": "G-005",
+      "region": "R-S",
+      "band": "restricted",
+      "target_type": "water",
+      "gap_kind": "no_evidence",
+      "reason": "区域 R-S 无分级 restricted 且传感器配置 CFG-B 的窗口",
+      "competing_targets": [],
+      "candidate_window_ids": []
+    },
+    {
+      "target_id": "G-006",
+      "region": "R-W",
+      "band": "clear",
+      "target_type": "water",
+      "gap_kind": "no_evidence",
+      "reason": "匹配窗口均不可用：W-05(状态 assigned), W-11(状态 assigned), W-17(状态 assigned), W-23(状态 assigned)",
+      "competing_targets": [],
+      "candidate_window_ids": []
+    },
+    {
+      "target_id": "G-007",
+      "region": "R-W",
+      "band": "low",
+      "target_type": "water",
+      "gap_kind": "no_evidence",
+      "reason": "区域 R-W 无分级 low 且传感器配置 CFG-B 的窗口",
+      "competing_targets": [],
+      "candidate_window_ids": []
+    },
+    {
+      "target_id": "G-008",
+      "region": "R-W",
+      "band": "restricted",
+      "target_type": "water",
+      "gap_kind": "no_evidence",
+      "reason": "区域 R-W 无分级 restricted 且传感器配置 CFG-B 的窗口",
+      "competing_targets": [],
+      "candidate_window_ids": []
+    }
+  ],
+  "window_load": {
+    "W-01": {
+      "used": 0,
+      "capacity": 2,
+      "route_id": "RT-1"
+    },
+    "W-02": {
+      "used": 0,
+      "capacity": 3,
+      "route_id": "RT-2"
+    },
+    "W-03": {
+      "used": 1,
+      "capacity": 1,
+      "route_id": "RT-3"
+    },
+    "W-04": {
+      "used": 0,
+      "capacity": 2,
+      "route_id": "RT-4"
+    },
+    "W-05": {
+      "used": 0,
+      "capacity": 3,
+      "route_id": "RT-5"
+    },
+    "W-06": {
+      "used": 0,
+      "capacity": 1,
+      "route_id": "RT-0"
+    },
+    "W-07": {
+      "used": 0,
+      "capacity": 2,
+      "route_id": "RT-1"
+    },
+    "W-08": {
+      "used": 0,
+      "capacity": 3,
+      "route_id": "RT-2"
+    },
+    "W-09": {
+      "used": 0,
+      "capacity": 1,
+      "route_id": "RT-3"
+    },
+    "W-10": {
+      "used": 0,
+      "capacity": 2,
+      "route_id": "RT-4"
+    },
+    "W-11": {
+      "used": 0,
+      "capacity": 3,
+      "route_id": "RT-5"
+    },
+    "W-12": {
+      "used": 0,
+      "capacity": 1,
+      "route_id": "RT-0"
+    },
+    "W-13": {
+      "used": 0,
+      "capacity": 2,
+      "route_id": "RT-1"
+    },
+    "W-14": {
+      "used": 0,
+      "capacity": 3,
+      "route_id": "RT-2"
+    },
+    "W-15": {
+      "used": 0,
+      "capacity": 1,
+      "route_id": "RT-3"
+    },
+    "W-16": {
+      "used": 0,
+      "capacity": 2,
+      "route_id": "RT-4"
+    },
+    "W-17": {
+      "used": 0,
+      "capacity": 3,
+      "route_id": "RT-5"
+    },
+    "W-18": {
+      "used": 0,
+      "capacity": 1,
+      "route_id": "RT-0"
+    },
+    "W-19": {
+      "used": 0,
+      "capacity": 2,
+      "route_id": "RT-1"
+    },
+    "W-20": {
+      "used": 0,
+      "capacity": 3,
+      "route_id": "RT-2"
+    },
+    "W-21": {
+      "used": 0,
+      "capacity": 1,
+      "route_id": "RT-3"
+    },
+    "W-22": {
+      "used": 0,
+      "capacity": 2,
+      "route_id": "RT-4"
+    },
+    "W-23": {
+      "used": 0,
+      "capacity": 3,
+      "route_id": "RT-5"
+    },
+    "W-24": {
+      "used": 0,
+      "capacity": 1,
+      "route_id": "RT-0"
+    }
+  },
+  "summary": {
+    "total_targets": 9,
+    "scheduled": 1,
+    "rerouted": 0,
+    "blocked": 0,
+    "executed": 0,
+    "unmet": 8
+  }
+}

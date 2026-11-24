@@ -1,0 +1,1186 @@
+{
+  "generated_at": "2026-11-24T05:59:20.247493+00:00",
+  "config": {
+    "max_gap_seconds": 43200.0,
+    "min_valid_results": 3
+  },
+  "source_files": {
+    "visibility.csv": "1f3442acdeacd7fc0180e3c6f4046789289a8aed501435d459851ead164d10cb",
+    "drives.csv": "54a4fdcc725069d1bc5af168089b81142c93ae6e476753de2526430b44c39c1a",
+    "obstacles.csv": "cae97f93f7e9b789899fca3b5ed0a36d070075658f8a6213f87752e9b38c78f5",
+    "test_windows.csv": "04413997060445804feadcc01c4339f4e845dc567a6e1ba00f14bfe150234e28",
+    "weather.csv": "78cb0eb27158ef6f105cd7d2ba171ed96e4a48a081118d4c51e49f1ec16d68ac",
+    "review_events.csv": "6e940bee2e223ad98be1056bac148ce503d8ef27d139a63801d21da990257714",
+    "closures.csv": "0934666d1cf275bc8e7ff8c2a970c2a8622b43a455b7e9d3570c16dee7d96da3",
+    "route_coverage.csv": "f6f1e9e2d852d3ddc440a778b4e36c61781a9795bd09767b2d7b67f729b17a41"
+  },
+  "versions": [
+    "V14",
+    "V15"
+  ],
+  "regions": [
+    "R-N",
+    "R-S",
+    "R-W"
+  ],
+  "time_skew": {
+    "matched": 41,
+    "large_gap": 17,
+    "max_gap_seconds": 41400.0,
+    "mean_gap_seconds": 18834.146341463416
+  },
+  "calibers": {
+    "V14": {
+      "low_visibility_trips": 6,
+      "partial_coverage_trips": 2,
+      "water_scenes": 3,
+      "mature_scenes": 3,
+      "valid_avoidance_results": 3,
+      "avoided": 3,
+      "intervention": 0,
+      "unknown_band_trips": 12,
+      "total_scenes": 13,
+      "withdrawn_scenes": 1
+    },
+    "V15": {
+      "low_visibility_trips": 8,
+      "partial_coverage_trips": 4,
+      "water_scenes": 3,
+      "mature_scenes": 3,
+      "valid_avoidance_results": 2,
+      "avoided": 1,
+      "intervention": 1,
+      "unknown_band_trips": 11,
+      "total_scenes": 14,
+      "withdrawn_scenes": 1
+    }
+  },
+  "coverage_matrix": [
+    {
+      "version": "V14",
+      "visibility_band": "clear",
+      "region": "R-N",
+      "trip_count": 3,
+      "partial_coverage_trips": 0,
+      "low_upload_trips": 0,
+      "scene_count": 1,
+      "mature_scene_count": 1,
+      "water_scene_count": 1,
+      "valid_avoidance_results": 1,
+      "avoided": 1,
+      "intervention": 0,
+      "observed_avoidance_rate": 1.0,
+      "evidence_status": "observed"
+    },
+    {
+      "version": "V14",
+      "visibility_band": "clear",
+      "region": "R-S",
+      "trip_count": 4,
+      "partial_coverage_trips": 4,
+      "low_upload_trips": 4,
+      "scene_count": 3,
+      "mature_scene_count": 0,
+      "water_scene_count": 0,
+      "valid_avoidance_results": 0,
+      "avoided": 0,
+      "intervention": 0,
+      "observed_avoidance_rate": null,
+      "evidence_status": "observed"
+    },
+    {
+      "version": "V14",
+      "visibility_band": "low",
+      "region": "R-N",
+      "trip_count": 4,
+      "partial_coverage_trips": 0,
+      "low_upload_trips": 0,
+      "scene_count": 2,
+      "mature_scene_count": 2,
+      "water_scene_count": 2,
+      "valid_avoidance_results": 2,
+      "avoided": 2,
+      "intervention": 0,
+      "observed_avoidance_rate": 1.0,
+      "evidence_status": "observed"
+    },
+    {
+      "version": "V14",
+      "visibility_band": "low",
+      "region": "R-S",
+      "trip_count": 2,
+      "partial_coverage_trips": 2,
+      "low_upload_trips": 2,
+      "scene_count": 1,
+      "mature_scene_count": 0,
+      "water_scene_count": 0,
+      "valid_avoidance_results": 0,
+      "avoided": 0,
+      "intervention": 0,
+      "observed_avoidance_rate": null,
+      "evidence_status": "observed"
+    },
+    {
+      "version": "V15",
+      "visibility_band": "clear",
+      "region": "R-N",
+      "trip_count": 2,
+      "partial_coverage_trips": 0,
+      "low_upload_trips": 0,
+      "scene_count": 0,
+      "mature_scene_count": 0,
+      "water_scene_count": 0,
+      "valid_avoidance_results": 0,
+      "avoided": 0,
+      "intervention": 0,
+      "observed_avoidance_rate": null,
+      "evidence_status": "observed"
+    },
+    {
+      "version": "V15",
+      "visibility_band": "clear",
+      "region": "R-S",
+      "trip_count": 4,
+      "partial_coverage_trips": 4,
+      "low_upload_trips": 4,
+      "scene_count": 3,
+      "mature_scene_count": 0,
+      "water_scene_count": 0,
+      "valid_avoidance_results": 0,
+      "avoided": 0,
+      "intervention": 0,
+      "observed_avoidance_rate": null,
+      "evidence_status": "observed"
+    },
+    {
+      "version": "V15",
+      "visibility_band": "low",
+      "region": "R-S",
+      "trip_count": 1,
+      "partial_coverage_trips": 1,
+      "low_upload_trips": 1,
+      "scene_count": 0,
+      "mature_scene_count": 0,
+      "water_scene_count": 0,
+      "valid_avoidance_results": 0,
+      "avoided": 0,
+      "intervention": 0,
+      "observed_avoidance_rate": null,
+      "evidence_status": "observed"
+    },
+    {
+      "version": "V15",
+      "visibility_band": "restricted",
+      "region": "R-N",
+      "trip_count": 4,
+      "partial_coverage_trips": 0,
+      "low_upload_trips": 0,
+      "scene_count": 3,
+      "mature_scene_count": 3,
+      "water_scene_count": 3,
+      "valid_avoidance_results": 2,
+      "avoided": 1,
+      "intervention": 1,
+      "observed_avoidance_rate": 0.5,
+      "evidence_status": "observed"
+    },
+    {
+      "version": "V15",
+      "visibility_band": "restricted",
+      "region": "R-S",
+      "trip_count": 3,
+      "partial_coverage_trips": 3,
+      "low_upload_trips": 3,
+      "scene_count": 2,
+      "mature_scene_count": 0,
+      "water_scene_count": 0,
+      "valid_avoidance_results": 0,
+      "avoided": 0,
+      "intervention": 0,
+      "observed_avoidance_rate": null,
+      "evidence_status": "observed"
+    }
+  ],
+  "unknown_band_trips": [
+    {
+      "trip_id": "T-002",
+      "version": "V14",
+      "region": "R-W",
+      "reason": "最近观测质量为 missing，不能用于能见度定档"
+    },
+    {
+      "trip_id": "T-005",
+      "version": "V15",
+      "region": "R-W",
+      "reason": "最近观测质量为 missing，不能用于能见度定档"
+    },
+    {
+      "trip_id": "T-008",
+      "version": "V14",
+      "region": "R-W",
+      "reason": "最近观测质量为 missing，不能用于能见度定档"
+    },
+    {
+      "trip_id": "T-011",
+      "version": "V15",
+      "region": "R-W",
+      "reason": "最近观测质量为 missing，不能用于能见度定档"
+    },
+    {
+      "trip_id": "T-014",
+      "version": "V14",
+      "region": "R-W",
+      "reason": "最近观测质量为 missing，不能用于能见度定档"
+    },
+    {
+      "trip_id": "T-017",
+      "version": "V15",
+      "region": "R-W",
+      "reason": "最近观测质量为 missing，不能用于能见度定档"
+    },
+    {
+      "trip_id": "T-020",
+      "version": "V14",
+      "region": "R-W",
+      "reason": "最近观测质量为 missing，不能用于能见度定档"
+    },
+    {
+      "trip_id": "T-021",
+      "version": "V15",
+      "region": "R-N",
+      "reason": "观测时间差超出匹配上限或同区域无观测"
+    },
+    {
+      "trip_id": "T-022",
+      "version": "V14",
+      "region": "R-S",
+      "reason": "观测时间差超出匹配上限或同区域无观测"
+    },
+    {
+      "trip_id": "T-023",
+      "version": "V15",
+      "region": "R-W",
+      "reason": "观测时间差超出匹配上限或同区域无观测"
+    },
+    {
+      "trip_id": "T-026",
+      "version": "V14",
+      "region": "R-W",
+      "reason": "最近观测质量为 missing，不能用于能见度定档"
+    },
+    {
+      "trip_id": "T-029",
+      "version": "V15",
+      "region": "R-W",
+      "reason": "最近观测质量为 missing，不能用于能见度定档"
+    },
+    {
+      "trip_id": "T-032",
+      "version": "V14",
+      "region": "R-W",
+      "reason": "最近观测质量为 missing，不能用于能见度定档"
+    },
+    {
+      "trip_id": "T-035",
+      "version": "V15",
+      "region": "R-W",
+      "reason": "最近观测质量为 missing，不能用于能见度定档"
+    },
+    {
+      "trip_id": "T-038",
+      "version": "V14",
+      "region": "R-W",
+      "reason": "最近观测质量为 missing，不能用于能见度定档"
+    },
+    {
+      "trip_id": "T-041",
+      "version": "V15",
+      "region": "R-W",
+      "reason": "最近观测质量为 missing，不能用于能见度定档"
+    },
+    {
+      "trip_id": "T-044",
+      "version": "V14",
+      "region": "R-W",
+      "reason": "最近观测质量为 missing，不能用于能见度定档"
+    },
+    {
+      "trip_id": "T-045",
+      "version": "V15",
+      "region": "R-N",
+      "reason": "观测时间差超出匹配上限或同区域无观测"
+    },
+    {
+      "trip_id": "T-046",
+      "version": "V14",
+      "region": "R-S",
+      "reason": "观测时间差超出匹配上限或同区域无观测"
+    },
+    {
+      "trip_id": "T-047",
+      "version": "V15",
+      "region": "R-W",
+      "reason": "观测时间差超出匹配上限或同区域无观测"
+    },
+    {
+      "trip_id": "T-048",
+      "version": "V14",
+      "region": "R-N",
+      "reason": "观测时间差超出匹配上限或同区域无观测"
+    },
+    {
+      "trip_id": "T-049",
+      "version": "V15",
+      "region": "R-S",
+      "reason": "观测时间差超出匹配上限或同区域无观测"
+    },
+    {
+      "trip_id": "T-050",
+      "version": "V14",
+      "region": "R-W",
+      "reason": "观测时间差超出匹配上限或同区域无观测"
+    }
+  ],
+  "unclassified_scene_ids": [
+    "S-O-002",
+    "S-O-005",
+    "S-O-008",
+    "S-O-011",
+    "S-O-014",
+    "S-O-017",
+    "S-O-020",
+    "S-O-021",
+    "S-O-022",
+    "S-O-023",
+    "S-O-026",
+    "S-O-029"
+  ],
+  "comparisons": [
+    {
+      "band": "restricted",
+      "region": "R-N",
+      "versions": [
+        "V14",
+        "V15"
+      ],
+      "trip_counts": [
+        0,
+        4
+      ],
+      "valid_counts": [
+        0,
+        2
+      ],
+      "water_scene_counts": [
+        0,
+        3
+      ],
+      "rates": [
+        null,
+        0.5
+      ],
+      "rate_difference": null,
+      "extrapolatable": false,
+      "reasons": [
+        "基线版本 V14 在该组合无行程，无法外推"
+      ],
+      "upload_fractions": [
+        null,
+        1.0
+      ]
+    },
+    {
+      "band": "restricted",
+      "region": "R-S",
+      "versions": [
+        "V14",
+        "V15"
+      ],
+      "trip_counts": [
+        0,
+        3
+      ],
+      "valid_counts": [
+        0,
+        0
+      ],
+      "water_scene_counts": [
+        0,
+        0
+      ],
+      "rates": [
+        null,
+        null
+      ],
+      "rate_difference": null,
+      "extrapolatable": false,
+      "reasons": [
+        "基线版本 V14 在该组合无行程，无法外推",
+        "V15 无有效规避结果，事件率不可计算",
+        "存在上传不完整行程，事件捕获可能遗漏",
+        "能见度观测仅覆盖部分路线"
+      ],
+      "upload_fractions": [
+        null,
+        0.8000000000000002
+      ]
+    },
+    {
+      "band": "restricted",
+      "region": "R-W",
+      "versions": [
+        "V14",
+        "V15"
+      ],
+      "trip_counts": [
+        0,
+        0
+      ],
+      "valid_counts": [
+        0,
+        0
+      ],
+      "water_scene_counts": [
+        0,
+        0
+      ],
+      "rates": [
+        null,
+        null
+      ],
+      "rate_difference": null,
+      "extrapolatable": false,
+      "reasons": [
+        "基线版本 V14 在该组合无行程，无法外推",
+        "候选版本 V15 在该组合无行程，无法外推"
+      ],
+      "upload_fractions": [
+        null,
+        null
+      ]
+    },
+    {
+      "band": "low",
+      "region": "R-N",
+      "versions": [
+        "V14",
+        "V15"
+      ],
+      "trip_counts": [
+        4,
+        0
+      ],
+      "valid_counts": [
+        2,
+        0
+      ],
+      "water_scene_counts": [
+        2,
+        0
+      ],
+      "rates": [
+        1.0,
+        null
+      ],
+      "rate_difference": null,
+      "extrapolatable": false,
+      "reasons": [
+        "候选版本 V15 在该组合无行程，无法外推"
+      ],
+      "upload_fractions": [
+        1.0,
+        null
+      ]
+    },
+    {
+      "band": "low",
+      "region": "R-S",
+      "versions": [
+        "V14",
+        "V15"
+      ],
+      "trip_counts": [
+        2,
+        1
+      ],
+      "valid_counts": [
+        0,
+        0
+      ],
+      "water_scene_counts": [
+        0,
+        0
+      ],
+      "rates": [
+        null,
+        null
+      ],
+      "rate_difference": null,
+      "extrapolatable": false,
+      "reasons": [
+        "V14 无有效规避结果，事件率不可计算",
+        "V15 无有效规避结果，事件率不可计算",
+        "存在上传不完整行程，事件捕获可能遗漏",
+        "能见度观测仅覆盖部分路线"
+      ],
+      "upload_fractions": [
+        0.8,
+        0.8
+      ]
+    },
+    {
+      "band": "low",
+      "region": "R-W",
+      "versions": [
+        "V14",
+        "V15"
+      ],
+      "trip_counts": [
+        0,
+        0
+      ],
+      "valid_counts": [
+        0,
+        0
+      ],
+      "water_scene_counts": [
+        0,
+        0
+      ],
+      "rates": [
+        null,
+        null
+      ],
+      "rate_difference": null,
+      "extrapolatable": false,
+      "reasons": [
+        "基线版本 V14 在该组合无行程，无法外推",
+        "候选版本 V15 在该组合无行程，无法外推"
+      ],
+      "upload_fractions": [
+        null,
+        null
+      ]
+    },
+    {
+      "band": "clear",
+      "region": "R-N",
+      "versions": [
+        "V14",
+        "V15"
+      ],
+      "trip_counts": [
+        3,
+        2
+      ],
+      "valid_counts": [
+        1,
+        0
+      ],
+      "water_scene_counts": [
+        1,
+        0
+      ],
+      "rates": [
+        1.0,
+        null
+      ],
+      "rate_difference": null,
+      "extrapolatable": false,
+      "reasons": [
+        "V15 无有效规避结果，事件率不可计算"
+      ],
+      "upload_fractions": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "band": "clear",
+      "region": "R-S",
+      "versions": [
+        "V14",
+        "V15"
+      ],
+      "trip_counts": [
+        4,
+        4
+      ],
+      "valid_counts": [
+        0,
+        0
+      ],
+      "water_scene_counts": [
+        0,
+        0
+      ],
+      "rates": [
+        null,
+        null
+      ],
+      "rate_difference": null,
+      "extrapolatable": false,
+      "reasons": [
+        "V14 无有效规避结果，事件率不可计算",
+        "V15 无有效规避结果，事件率不可计算",
+        "存在上传不完整行程，事件捕获可能遗漏",
+        "能见度观测仅覆盖部分路线"
+      ],
+      "upload_fractions": [
+        0.8,
+        0.8
+      ]
+    },
+    {
+      "band": "clear",
+      "region": "R-W",
+      "versions": [
+        "V14",
+        "V15"
+      ],
+      "trip_counts": [
+        0,
+        0
+      ],
+      "valid_counts": [
+        0,
+        0
+      ],
+      "water_scene_counts": [
+        0,
+        0
+      ],
+      "rates": [
+        null,
+        null
+      ],
+      "rate_difference": null,
+      "extrapolatable": false,
+      "reasons": [
+        "基线版本 V14 在该组合无行程，无法外推",
+        "候选版本 V15 在该组合无行程，无法外推"
+      ],
+      "upload_fractions": [
+        null,
+        null
+      ]
+    }
+  ],
+  "retest_targets": [
+    {
+      "target_id": "G-001",
+      "region": "R-N",
+      "band": "clear",
+      "target_type": "water",
+      "version": "V15",
+      "gap_kind": "no_evidence",
+      "reason": "有行程但未观测到任何积水场景，无法支持规避能力结论",
+      "required_sensor_config": "CFG-B",
+      "trip_count": 2,
+      "mature_scene_count": 0,
+      "valid_avoidance_count": 0
+    },
+    {
+      "target_id": "G-002",
+      "region": "R-N",
+      "band": "low",
+      "target_type": "water",
+      "version": "V15",
+      "gap_kind": "no_evidence",
+      "reason": "该版本在此能见度×区域组合没有任何行程",
+      "required_sensor_config": "CFG-B",
+      "trip_count": 0,
+      "mature_scene_count": 0,
+      "valid_avoidance_count": 0
+    },
+    {
+      "target_id": "G-003",
+      "region": "R-S",
+      "band": "clear",
+      "target_type": "water",
+      "version": "V15",
+      "gap_kind": "no_evidence",
+      "reason": "有行程但未观测到任何积水场景，无法支持规避能力结论",
+      "required_sensor_config": "CFG-B",
+      "trip_count": 4,
+      "mature_scene_count": 0,
+      "valid_avoidance_count": 0
+    },
+    {
+      "target_id": "G-004",
+      "region": "R-S",
+      "band": "low",
+      "target_type": "water",
+      "version": "V15",
+      "gap_kind": "no_evidence",
+      "reason": "有行程但未观测到任何积水场景，无法支持规避能力结论",
+      "required_sensor_config": "CFG-B",
+      "trip_count": 1,
+      "mature_scene_count": 0,
+      "valid_avoidance_count": 0
+    },
+    {
+      "target_id": "G-005",
+      "region": "R-S",
+      "band": "restricted",
+      "target_type": "water",
+      "version": "V15",
+      "gap_kind": "no_evidence",
+      "reason": "有行程但未观测到任何积水场景，无法支持规避能力结论",
+      "required_sensor_config": "CFG-B",
+      "trip_count": 3,
+      "mature_scene_count": 0,
+      "valid_avoidance_count": 0
+    },
+    {
+      "target_id": "G-006",
+      "region": "R-W",
+      "band": "clear",
+      "target_type": "water",
+      "version": "V15",
+      "gap_kind": "no_evidence",
+      "reason": "该版本在此能见度×区域组合没有任何行程",
+      "required_sensor_config": "CFG-B",
+      "trip_count": 0,
+      "mature_scene_count": 0,
+      "valid_avoidance_count": 0
+    },
+    {
+      "target_id": "G-007",
+      "region": "R-W",
+      "band": "low",
+      "target_type": "water",
+      "version": "V15",
+      "gap_kind": "no_evidence",
+      "reason": "该版本在此能见度×区域组合没有任何行程",
+      "required_sensor_config": "CFG-B",
+      "trip_count": 0,
+      "mature_scene_count": 0,
+      "valid_avoidance_count": 0
+    },
+    {
+      "target_id": "G-008",
+      "region": "R-W",
+      "band": "restricted",
+      "target_type": "water",
+      "version": "V15",
+      "gap_kind": "no_evidence",
+      "reason": "该版本在此能见度×区域组合没有任何行程",
+      "required_sensor_config": "CFG-B",
+      "trip_count": 0,
+      "mature_scene_count": 0,
+      "valid_avoidance_count": 0
+    },
+    {
+      "target_id": "G-009",
+      "region": "R-N",
+      "band": "restricted",
+      "target_type": "water",
+      "version": "V15",
+      "gap_kind": "thin",
+      "reason": "有效规避结果 2 个，少于稳定评估所需的 3 个",
+      "required_sensor_config": "CFG-B",
+      "trip_count": 4,
+      "mature_scene_count": 3,
+      "valid_avoidance_count": 2
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "S-O-001",
+      "trip_id": "T-001",
+      "type": "debris",
+      "frame_start": 10,
+      "frame_end": 14,
+      "review_state": "pending",
+      "outcome": "intervention",
+      "detection_ids": [
+        "O-001"
+      ],
+      "corrections": []
+    },
+    {
+      "scene_id": "S-O-002",
+      "trip_id": "T-002",
+      "type": "animal",
+      "frame_start": 20,
+      "frame_end": 24,
+      "review_state": "revised",
+      "outcome": "unclear",
+      "detection_ids": [
+        "O-002"
+      ],
+      "corrections": []
+    },
+    {
+      "scene_id": "S-O-003",
+      "trip_id": "T-003",
+      "type": "water",
+      "frame_start": 30,
+      "frame_end": 34,
+      "review_state": "confirmed",
+      "outcome": "intervention",
+      "detection_ids": [
+        "O-003"
+      ],
+      "corrections": [
+        "RV-001"
+      ]
+    },
+    {
+      "scene_id": "S-O-004",
+      "trip_id": "T-004",
+      "type": "debris",
+      "frame_start": 40,
+      "frame_end": 44,
+      "review_state": "pending",
+      "outcome": "intervention",
+      "detection_ids": [
+        "O-004"
+      ],
+      "corrections": []
+    },
+    {
+      "scene_id": "S-O-005",
+      "trip_id": "T-005",
+      "type": "animal",
+      "frame_start": 50,
+      "frame_end": 54,
+      "review_state": "revised",
+      "outcome": "unclear",
+      "detection_ids": [
+        "O-005"
+      ],
+      "corrections": []
+    },
+    {
+      "scene_id": "S-O-006",
+      "trip_id": "T-006",
+      "type": "water",
+      "frame_start": 60,
+      "frame_end": 64,
+      "review_state": "confirmed",
+      "outcome": "avoided",
+      "detection_ids": [
+        "O-006"
+      ],
+      "corrections": [
+        "RV-002"
+      ]
+    },
+    {
+      "scene_id": "S-O-007",
+      "trip_id": "T-007",
+      "type": "debris",
+      "frame_start": 70,
+      "frame_end": 74,
+      "review_state": "pending",
+      "outcome": "intervention",
+      "detection_ids": [
+        "O-007"
+      ],
+      "corrections": []
+    },
+    {
+      "scene_id": "S-O-008",
+      "trip_id": "T-008",
+      "type": "animal",
+      "frame_start": 80,
+      "frame_end": 84,
+      "review_state": "revised",
+      "outcome": "unclear",
+      "detection_ids": [
+        "O-008"
+      ],
+      "corrections": []
+    },
+    {
+      "scene_id": "S-O-009",
+      "trip_id": "T-009",
+      "type": "water",
+      "frame_start": 90,
+      "frame_end": 94,
+      "review_state": "withdrawn",
+      "outcome": null,
+      "detection_ids": [
+        "O-009"
+      ],
+      "corrections": [
+        "RV-003"
+      ]
+    },
+    {
+      "scene_id": "S-O-010",
+      "trip_id": "T-010",
+      "type": "debris",
+      "frame_start": 100,
+      "frame_end": 104,
+      "review_state": "pending",
+      "outcome": "intervention",
+      "detection_ids": [
+        "O-010"
+      ],
+      "corrections": []
+    },
+    {
+      "scene_id": "S-O-011",
+      "trip_id": "T-011",
+      "type": "animal",
+      "frame_start": 110,
+      "frame_end": 114,
+      "review_state": "revised",
+      "outcome": "unclear",
+      "detection_ids": [
+        "O-011"
+      ],
+      "corrections": []
+    },
+    {
+      "scene_id": "S-O-012",
+      "trip_id": "T-012",
+      "type": "water",
+      "frame_start": 122,
+      "frame_end": 124,
+      "review_state": "confirmed",
+      "outcome": "avoided",
+      "detection_ids": [
+        "O-012"
+      ],
+      "corrections": [
+        "RV-004"
+      ]
+    },
+    {
+      "scene_id": "S-O-013",
+      "trip_id": "T-013",
+      "type": "debris",
+      "frame_start": 130,
+      "frame_end": 134,
+      "review_state": "pending",
+      "outcome": "intervention",
+      "detection_ids": [
+        "O-013"
+      ],
+      "corrections": []
+    },
+    {
+      "scene_id": "S-O-014",
+      "trip_id": "T-014",
+      "type": "animal",
+      "frame_start": 140,
+      "frame_end": 144,
+      "review_state": "revised",
+      "outcome": "unclear",
+      "detection_ids": [
+        "O-014"
+      ],
+      "corrections": []
+    },
+    {
+      "scene_id": "S-O-015",
+      "trip_id": "T-015",
+      "type": "water",
+      "frame_start": 150,
+      "frame_end": 184,
+      "review_state": "confirmed",
+      "outcome": "avoided",
+      "detection_ids": [
+        "O-015"
+      ],
+      "corrections": [
+        "RV-005",
+        "RV-006"
+      ]
+    },
+    {
+      "scene_id": "S-O-016",
+      "trip_id": "T-016",
+      "type": "debris",
+      "frame_start": 160,
+      "frame_end": 164,
+      "review_state": "pending",
+      "outcome": "intervention",
+      "detection_ids": [
+        "O-016"
+      ],
+      "corrections": []
+    },
+    {
+      "scene_id": "S-O-017",
+      "trip_id": "T-017",
+      "type": "animal",
+      "frame_start": 170,
+      "frame_end": 174,
+      "review_state": "revised",
+      "outcome": "unclear",
+      "detection_ids": [
+        "O-017"
+      ],
+      "corrections": []
+    },
+    {
+      "scene_id": "S-O-019",
+      "trip_id": "T-019",
+      "type": "debris",
+      "frame_start": 190,
+      "frame_end": 194,
+      "review_state": "pending",
+      "outcome": "intervention",
+      "detection_ids": [
+        "O-019"
+      ],
+      "corrections": []
+    },
+    {
+      "scene_id": "S-O-020",
+      "trip_id": "T-020",
+      "type": "animal",
+      "frame_start": 200,
+      "frame_end": 204,
+      "review_state": "revised",
+      "outcome": "unclear",
+      "detection_ids": [
+        "O-020"
+      ],
+      "corrections": []
+    },
+    {
+      "scene_id": "S-O-021",
+      "trip_id": "T-021",
+      "type": "water",
+      "frame_start": 210,
+      "frame_end": 214,
+      "review_state": "confirmed",
+      "outcome": "avoided",
+      "detection_ids": [
+        "O-021"
+      ],
+      "corrections": [
+        "RV-007"
+      ]
+    },
+    {
+      "scene_id": "S-O-022",
+      "trip_id": "T-022",
+      "type": "debris",
+      "frame_start": 220,
+      "frame_end": 224,
+      "review_state": "pending",
+      "outcome": "intervention",
+      "detection_ids": [
+        "O-022"
+      ],
+      "corrections": []
+    },
+    {
+      "scene_id": "S-O-023",
+      "trip_id": "T-023",
+      "type": "animal",
+      "frame_start": 230,
+      "frame_end": 234,
+      "review_state": "revised",
+      "outcome": "unclear",
+      "detection_ids": [
+        "O-023"
+      ],
+      "corrections": []
+    },
+    {
+      "scene_id": "S-O-024",
+      "trip_id": "T-024",
+      "type": "water",
+      "frame_start": 240,
+      "frame_end": 244,
+      "review_state": "withdrawn",
+      "outcome": null,
+      "detection_ids": [
+        "O-024"
+      ],
+      "corrections": [
+        "RV-008"
+      ]
+    },
+    {
+      "scene_id": "S-O-025",
+      "trip_id": "T-025",
+      "type": "debris",
+      "frame_start": 250,
+      "frame_end": 254,
+      "review_state": "pending",
+      "outcome": "intervention",
+      "detection_ids": [
+        "O-025"
+      ],
+      "corrections": []
+    },
+    {
+      "scene_id": "S-O-026",
+      "trip_id": "T-026",
+      "type": "animal",
+      "frame_start": 260,
+      "frame_end": 264,
+      "review_state": "revised",
+      "outcome": "unclear",
+      "detection_ids": [
+        "O-026"
+      ],
+      "corrections": []
+    },
+    {
+      "scene_id": "S-O-027",
+      "trip_id": "T-027",
+      "type": "water",
+      "frame_start": 270,
+      "frame_end": 274,
+      "review_state": "confirmed",
+      "outcome": "unclear",
+      "detection_ids": [
+        "O-027"
+      ],
+      "corrections": [
+        "RV-009"
+      ]
+    },
+    {
+      "scene_id": "S-O-028",
+      "trip_id": "T-028",
+      "type": "debris",
+      "frame_start": 280,
+      "frame_end": 284,
+      "review_state": "pending",
+      "outcome": "intervention",
+      "detection_ids": [
+        "O-028"
+      ],
+      "corrections": []
+    },
+    {
+      "scene_id": "S-O-029",
+      "trip_id": "T-029",
+      "type": "animal",
+      "frame_start": 290,
+      "frame_end": 294,
+      "review_state": "revised",
+      "outcome": "unclear",
+      "detection_ids": [
+        "O-029"
+      ],
+      "corrections": []
+    },
+    {
+      "scene_id": "S-O-030",
+      "trip_id": "T-030",
+      "type": "water",
+      "frame_start": 300,
+      "frame_end": 304,
+      "review_state": "confirmed",
+      "outcome": "avoided",
+      "detection_ids": [
+        "O-030"
+      ],
+      "corrections": [
+        "RV-010"
+      ]
+    }
+  ]
+}

@@ -2,3 +2,7 @@
 __pycache__/
 *.py[cod]
 .coverage
+out/
+*.egg-info/
+build/
+dist/

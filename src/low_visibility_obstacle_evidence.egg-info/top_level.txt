@@ -1,0 +1,2 @@
+low_visibility_obstacle_evidence
+weather_obstacle_evidence

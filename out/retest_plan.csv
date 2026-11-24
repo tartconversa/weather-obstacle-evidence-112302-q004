@@ -1,0 +1,10 @@
+﻿target_id,region,band,target_type,window_id,route_id,sensor_config,status,gap_kind,primary,coverage_loss_weight,note
+G-009,R-N,restricted,water,W-03,RT-3,CFG-B,proposed,thin,True,0.0,
+G-001,R-N,clear,water,,,,unmet,no_evidence,,,区域 R-N 无分级 clear 且传感器配置 CFG-B 的窗口
+G-002,R-N,low,water,,,,unmet,no_evidence,,,区域 R-N 无分级 low 且传感器配置 CFG-B 的窗口
+G-003,R-S,clear,water,,,,unmet,no_evidence,,,区域 R-S 无分级 clear 且传感器配置 CFG-B 的窗口
+G-004,R-S,low,water,,,,unmet,no_evidence,,,"匹配窗口均不可用：W-01(状态 held), W-07(状态 held), W-13(状态 held), W-19(状态 held)"
+G-005,R-S,restricted,water,,,,unmet,no_evidence,,,区域 R-S 无分级 restricted 且传感器配置 CFG-B 的窗口
+G-006,R-W,clear,water,,,,unmet,no_evidence,,,"匹配窗口均不可用：W-05(状态 assigned), W-11(状态 assigned), W-17(状态 assigned), W-23(状态 assigned)"
+G-007,R-W,low,water,,,,unmet,no_evidence,,,区域 R-W 无分级 low 且传感器配置 CFG-B 的窗口
+G-008,R-W,restricted,water,,,,unmet,no_evidence,,,区域 R-W 无分级 restricted 且传感器配置 CFG-B 的窗口

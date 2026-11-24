@@ -1,0 +1,11 @@
+﻿event_id,obstacle_id,reviewed_at,action,new_type,new_outcome,merge_into,frame_start,frame_end,note
+RV-001,O-003,2026-11-21T09:00Z,reclassify,,intervention,,,,复核录像确认需人工接管
+RV-002,O-006,2026-11-21T09:30Z,confirm,water,avoided,,,,
+RV-003,O-009,2026-11-21T10:00Z,reject,,,,,,路面反光导致误检
+RV-004,O-012,2026-11-21T10:30Z,split,,,,122,124,前两帧属于另一障碍
+RV-005,O-015,2026-11-21T11:00Z,confirm,water,avoided,,,,
+RV-006,O-018,2026-11-21T11:05Z,merge,,,O-015,,,与 O-015 为同一积水场景
+RV-007,O-021,2026-11-21T11:30Z,reclassify,water,avoided,,,,原始类型标注错误
+RV-008,O-024,2026-11-21T12:00Z,reject,,,,,,重复检测，无独立障碍
+RV-009,O-027,2026-11-21T12:30Z,confirm,water,unclear,,,,遮挡严重，规避动作无法定性
+RV-010,O-030,2026-11-21T13:00Z,confirm,water,avoided,,,,
